@@ -28,12 +28,18 @@ const Blogsbody = () => {
             const newBookmark = [...bookmarks, blog.title]
             setBookmark(newBookmark);
             toast.success('Bookmark Successfully Added',{
-                position:'top-center'
+                position:'top-center', style:{
+                    background: '#00466D',
+                    color:'white'
+                }
             })
         }
         else {
             toast.error('You Have Already Bookmarked This Blog', {
-                position:'bottom-center'
+                position:'bottom-center', style:{
+                    background:'#8E0000',
+                    color:'white'
+                }
             })
         }
     }
