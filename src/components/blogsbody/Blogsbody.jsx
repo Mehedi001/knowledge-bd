@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { toast } from 'react-hot-toast';
 import Blog from '../blog/Blog';
 import './Blogsbody.css'
 const Blogsbody = () => {
@@ -26,9 +27,10 @@ const Blogsbody = () => {
         if (bookmarks.includes(blog.title) !== true) {
             const newBookmark = [...bookmarks, blog.title]
             setBookmark(newBookmark);
+            
         }
         else {
-            return alert('hello');
+            toast.error('You Have Already Bookmarked This Blog')
         }
     }
 
