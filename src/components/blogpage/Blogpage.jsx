@@ -18,7 +18,7 @@ const Blogpage = () => {
             </div>
             <div className='w-100 ms-0 ms-md-3 w-md-50'>
             <h3>Purpose of useEffect other than fetching data.</h3>
-            <p>The useEffect in react js allows to perform side effects in components. If we need to perform a side effect, it should strictly be done after our component renders.</p> <br /> <br />
+            <p>The useEffect in react js allows to perform side effects in components. If we need to perform a side effect, it should strictly be done after our component renders.</p>
             <h3>How Does React work?</h3>
             <p>One of the most widely used JavaScript libraries for creating mobile and online applications is ReactJS. Facebook created</p>
             </div>
