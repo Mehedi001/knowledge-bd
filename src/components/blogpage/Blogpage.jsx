@@ -5,7 +5,7 @@ import './Blogpage.css'
 const Blogpage = () => {
     return (
         <div className='bg-secondary p-1 p-md-5 text-light mt-5'>
-            <h2 className='text-center mb-4 text-decoration-underline text-warning'>Question & Answer</h2>
+            <h2 className='text-center mb-4 pt-3 pt-md-1 text-decoration-underline text-warning'>Question & Answer</h2>
             <div className='footer p-md-5 p-3'>
             <div className='w-100 w-md-50 '>
             <h3>Props vs state</h3>
