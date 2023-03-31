@@ -23,6 +23,8 @@ const Blogpage = () => {
             <p>One of the most widely used JavaScript libraries for creating mobile and online applications is ReactJS. Facebook created</p>
             </div>
             </div>
+            <hr />
+            <p className='text-center mt-5 text-light'><small>This Site Copyright by © MehediHridoy 2023</small></p>
         </div>
     );
 };

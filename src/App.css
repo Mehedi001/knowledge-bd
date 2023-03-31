@@ -44,4 +44,5 @@
 @media only screen and (max-width: 576px) {
   #root {
       max-width: 450px;
+      margin: auto;
   }}

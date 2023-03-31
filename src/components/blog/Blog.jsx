@@ -8,7 +8,7 @@ const Blog = (props) => {
 
 
     return (
-        <div style={{width:'100%'}}>
+       
             <Card className='border-0'>
         <img className='rounded-2' variant="top" src={img} alt="" />
         <Card.Body>
@@ -21,15 +21,15 @@ const Blog = (props) => {
             </div>
             </div>
             <div>
-            <p>{readTime} min read <button className='p-0 border-0' onClick={() => addBookmarks(blog)}><FaRegBookmark></FaRegBookmark></button></p>
+            <p>{readTime} min read <button className='p-0 border-0 bg-transparent' onClick={() => addBookmarks(blog)}><FaRegBookmark className='text-dark'></FaRegBookmark></button></p>
             </div>
           </div>
           <Card.Title className='fw-bold mt-3 fs-2'>{title}</Card.Title>
           <p>#beginners &nbsp; #programming</p>
-          <button className='p-0 text-primary text-decoration-underline border-0' onClick={() => readPlus(blog)}>Mark as Read</button>
+          <button className='p-0 text-primary text-decoration-underline border-0 bg-transparent' onClick={() => readPlus(blog)}>Mark as Read</button>
         </Card.Body>
       </Card>
-        </div>
+       
     );
 };
 
