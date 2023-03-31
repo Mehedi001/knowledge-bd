@@ -9,7 +9,7 @@ const Blog = (props) => {
 
     return (
         <div style={{width:'100%'}}>
-            <Card className=''>
+            <Card className='border-0'>
         <img className='rounded-2' variant="top" src={img} alt="" />
         <Card.Body>
           <div className='d-flex justify-content-between'>

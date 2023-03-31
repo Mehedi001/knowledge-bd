@@ -16,18 +16,21 @@ const Blogsbody = () => {
     function readPlus(blog) {
         setReadtime(readTime + blog.readTime)
     }
-    function addBookmarks(blog) {
-        const newBookmark = [...bookmarks, blog.title]
-        setBookmark(newBookmark);
-    }
+    // function addBookmarks(blog) {
+    //     const newBookmark = [...bookmarks, blog.title]
+    //     setBookmark(newBookmark);
+    //     console.log (newBookmark)
+    // }
 
-    function arrayLoop(array){
-        for (let i=0; i<array.length;i++){
-            return array[i];
+    function addBookmarks(blog) {
+        if (bookmarks.includes(blog.title) !== true) {
+            const newBookmark = [...bookmarks, blog.title]
+            setBookmark(newBookmark);
+        }
+        else {
+            return alert('hello');
         }
     }
-    const values = arrayLoop(bookmarks);
-    console.log (values)
 
 
     return (
