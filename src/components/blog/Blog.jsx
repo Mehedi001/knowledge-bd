@@ -3,14 +3,14 @@ import Card from 'react-bootstrap/Card';
 import { FaRegBookmark } from "react-icons/fa";
 
 const Blog = (props) => {
-    const {readPlus, blog} = props;
-    const {title, name,authorImg,img,id,publishDate,readTime} = blog;
+    const {readPlus, blog, addBookmarks} = props;
+    const {title, name,authorImg,img,publishDate,readTime} = blog;
 
 
     return (
-        <div>
+        <div style={{width:'100%'}}>
             <Card className=''>
-        <Card.Img className='img-fluid' variant="top" src={img} />
+        <img className='rounded-2' variant="top" src={img} alt="" />
         <Card.Body>
           <div className='d-flex justify-content-between'>
             <div className='d-flex gap-3'>
@@ -21,10 +21,10 @@ const Blog = (props) => {
             </div>
             </div>
             <div>
-            <p>{readTime} min read <button className='p-0 border-0'><FaRegBookmark></FaRegBookmark></button></p>
+            <p>{readTime} min read <button className='p-0 border-0' onClick={() => addBookmarks(blog)}><FaRegBookmark></FaRegBookmark></button></p>
             </div>
           </div>
-          <Card.Title className='fw-bold mt-3 fs-2 w-75'>{title}</Card.Title>
+          <Card.Title className='fw-bold mt-3 fs-2'>{title}</Card.Title>
           <p>#beginners &nbsp; #programming</p>
           <button className='p-0 text-primary text-decoration-underline border-0' onClick={() => readPlus(blog)}>Mark as Read</button>
         </Card.Body>

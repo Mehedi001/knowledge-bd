@@ -1,0 +1,27 @@
+.blog-container{
+   display: flex;
+}
+
+.blog-left-side{
+    width: 60%;
+}
+
+.blog-right-side{
+    width: 40%;
+    margin-top: 35px;
+}
+
+@media only screen and (max-width: 576px) {
+    .blog-container {
+        display: block;
+    }
+
+    .blog-left-side {
+        width: 100%;
+    }
+
+    .blog-right-side{
+        width: 100%;
+        margin-top: 5px;
+    }
+}
