@@ -27,10 +27,14 @@ const Blogsbody = () => {
         if (bookmarks.includes(blog.title) !== true) {
             const newBookmark = [...bookmarks, blog.title]
             setBookmark(newBookmark);
-            toast.success('Bookmark Successfully Added')
+            toast.success('Bookmark Successfully Added',{
+                position:'top-center'
+            })
         }
         else {
-            toast.error('You Have Already Bookmarked This Blog')
+            toast.error('You Have Already Bookmarked This Blog', {
+                position:'bottom-center'
+            })
         }
     }
 
