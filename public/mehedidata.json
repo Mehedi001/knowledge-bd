@@ -3,46 +3,46 @@
         "id": "1",
         "title": "Tanguar Haor Beauty Tree Called Hijal (Barringtonia acutangula)",
         "name": "Mr. Hridoy",
-        "author-img": "https://www.freecodecamp.org/news/content/images/2021/03/Quincy-Larson-photo.jpg",
+        "authorImg": "https://i0.wp.com/www.americandatabank.com/wp-content/uploads/2018/10/portrait-square-03.jpg?ssl=1",
         "img": "https://images.unsplash.com/photo-1599074914978-2946b69e5a4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-        "publish-date": "15/04/2023",
-        "read-time": 10
+        "publishDate": "15/04/2023",
+        "readTime": 10
     },
     {
         "id": "2",
         "title": "Why is Scarecrow so popular with farmers?",
         "name": "Ms. Selina",
-        "author-img": "https://media.istockphoto.com/id/1154642632/photo/close-up-portrait-of-brunette-woman.jpg?b=1&s=612x612&w=0&k=20&c=7hgSq1L2mpIbpuuw00KELApMpmZfBkZ-RBxn3Qps5zQ=",
+        "authorImg": "https://blackhorseexcellence.com/wp-content/uploads/2022/04/portrait-square-06.jpg",
         "img": "https://images.pexels.com/photos/3560020/pexels-photo-3560020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "publish-date":"12/03/2023",
-        "read-time": 6
+        "publishDate":"12/03/2023",
+        "readTime": 6
     },
     {
         "id": "3",
         "title": "The way fishermen catch fish with boats while mourning Haor",
         "name": "Ms. Helen",
-        "author-img": "https://media.istockphoto.com/id/1311084168/photo/overjoyed-pretty-asian-woman-look-at-camera-with-sincere-laughter.jpg?b=1&s=170667a&w=0&k=20&c=XPuGhP9YyCWquTGT-tUFk6TwI-HZfOr1jNkehKQ17g0=",
+        "authorImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMvyFYVu-t5sW0JZr2pnEHcVc3UsQ6ew5SlA&usqp=CAU",
         "img": "https://images.pexels.com/photos/3675856/pexels-photo-3675856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "publish-date": "05/02/2023",
-        "read-time": 12
+        "publishDate": "05/02/2023",
+        "readTime": 12
     },
     {
         "id": "4",
         "title": "The farmer takes hay home, not only to feed the cows, but also to repair his house. This straw also has more uses",
         "name": "Ms. roji",
-        "author-img": "https://pbs.twimg.com/profile_images/1485050791488483328/UNJ05AV8_400x400.jpg",
+        "authorImg": "https://i0.wp.com/therighthairstyles.com/wp-content/uploads/2014/03/8-choppy-collarbone-cut.jpg?w=500&ssl=1",
         "img": "https://images.pexels.com/photos/6052967/pexels-photo-6052967.jpeg",
-        "publish-date": "11/12/2022",
-        "read-time": 5
+        "publishDate": "11/12/2022",
+        "readTime": 5
     },
     {
         "id": "5",
         "title": "Fishermen's boats on Cox's Bazar beach. How they go to the deep sea with these boats",
         "name": "Mr. Hasan",
-        "author-img": "https://pbs.twimg.com/profile_images/1485050791488483328/UNJ05AV8_400x400.jpg",
+        "authorImg": "https://pbs.twimg.com/profile_images/1485050791488483328/UNJ05AV8_400x400.jpg",
         "img": "https://images.pexels.com/photos/122107/pexels-photo-122107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "publish-date": "14/08/2022",
-        "read-time": 8
+        "publishDate": "14/08/2022",
+        "readTime": 8
     }
 ]
 
